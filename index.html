@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicole A. Vita, Ph.D. — Computational Chemist</title>
+<meta name="description" content="Nicole A. Vita, Ph.D. — Computational chemist working at the intersection of molecular simulation and cheminformatics.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Nicole A. Vita, Ph.D.</h1>
+    <p class="tagline">Computational chemist &middot; physics-based design and cheminformatics</p>
+    <p class="intro">Three years in oncology drug discovery. Published in Science. I work at the intersection of molecular simulation and cheminformatics, using physics to explain mechanism and cheminformatics to drive design.</p>
+    <nav class="contact-links" aria-label="Contact links">
+      <a href="mailto:nvita008@gmail.com">Email</a>
+      <span class="sep">&middot;</span>
+      <a href="#">Google Scholar</a>
+      <span class="sep">&middot;</span>
+      <a href="https://github.com/nvita008-web">GitHub</a>
+      <span class="sep">&middot;</span>
+      <a href="#">LinkedIn</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>I'm a computational chemist whose deepest work is physics-based, molecular dynamics, free-energy methods, and QM/MM, applied alongside structure-based design and cheminformatics. At Revolution Medicines I characterized reaction mechanisms, built the workflows behind them, and translated results into decisions medicinal chemists could act on. I care most about the why behind a design, and about making computational results something a chemist trusts enough to make the molecule.</p>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="container">
+      <h2>Selected Work</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card-media">
+            <video autoplay muted loop playsinline poster="images/IRC_warhead.png">
+              <source src="videos/covalent.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>Covalent inhibition of KRAS G12D &mdash; QM/MM (Science, 2025)</h3>
+            <p>I characterized the covalent mechanism of a KRAS G12D inhibitor, mapping the SN2 reaction of the warhead engaging the mutant aspartate and showing the protein environment lowers the reaction barrier. The animation shows the forming covalent bond along the reaction coordinate.</p>
+            <p class="caption">from Weller et al., Science 2025</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <video autoplay muted loop playsinline>
+              <source src="videos/mutation.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>Free-energy methods for resistance mutations (thermodynamic integration)</h3>
+            <p>I developed a TI protocol to quantify how binding-site mutations affect affinity, tuned to converge within design timelines. The animation illustrates the alchemical transformation at the heart of the method.</p>
+            <p class="caption">illustrative example, not a specific system</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <video autoplay muted loop playsinline>
+              <source src="videos/enumeration.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>Structure-guided library design</h3>
+            <p>Working from interaction analysis, I directed library enumeration into productive regions of the binding pocket, filtering by physicochemical properties and synthetic accessibility with medicinal chemistry. The animation shows enumerated ligands sampling a pocket.</p>
+            <p class="caption">illustrative</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media card-media--placeholder">
+            <span class="placeholder-label">Screenshot coming soon</span>
+          </div>
+          <div class="card-body">
+            <h3>Scientific software, end to end</h3>
+            <p>I designed and shipped a production web application with an LLM-based data-extraction pipeline and interactive analysis dashboard, from architecture through deployment.</p>
+            <p class="card-link"><a href="#">View the app &rarr;</a></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <dl class="skills-list">
+        <dt>Modeling &amp; Simulation</dt>
+        <dd>Schr&ouml;dinger Suite, molecular dynamics (AMBER, Desmond, OpenMM), free-energy methods (thermodynamic integration), MM-GBSA, QM/MM and DFT (Gaussian), docking, virtual screening</dd>
+
+        <dt>Cheminformatics &amp; ML</dt>
+        <dd>Python, RDKit, QSAR/SAR, fingerprints, clustering, REINVENT4</dd>
+
+        <dt>Compute</dt>
+        <dd>Linux, HPC, AWS, Azure, Git</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Publications</h2>
+      <ol class="pub-list">
+        <li>Weller C, Burnett GL, Jiang L, Vita NA, et al. A neomorphic protein interface catalyzes covalent inhibition of KRAS G12D aspartic acid in tumors. <em>Science</em>, 2025.</li>
+        <li>Mugengana AK*, Vita NA*, Gandt AB*, et al. Discovery and development of thienopyrimidines as inhibitors of <em>Helicobacter pylori</em> Complex I. <em>ACS Infectious Diseases</em>, 2021. (*co-first authors)</li>
+        <li>Vita NA, Anderson SM, Lee RE. Targeting <em>Helicobacter pylori</em> for antibacterial drug discovery. <em>Current Opinion in Microbiology</em>, 2022.</li>
+      </ol>
+      <p class="pub-note">Named inventor on a pending patent.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><a href="mailto:nvita008@gmail.com">nvita008@gmail.com</a></p>
+    <p>SF Bay Area &middot; open to relocation</p>
+  </div>
+</footer>
+
+</body>
+</html>
